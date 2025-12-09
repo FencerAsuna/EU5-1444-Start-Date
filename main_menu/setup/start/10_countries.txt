@@ -23607,6 +23607,11 @@ countries = {
 
 	#Japan
 	JAP = {
+		# Reduce Ashikaga starting legitimacy to trigger Sengoku situation immediately
+		currency_data = {
+			government_power = 45
+		}
+
 		own_control_core = {
 			inaka hanawa hiraka_aomori kamikita nukanobu kazuno
 			kuji iwate shimohei kitahei kamihei shiwa hienuki esashi waga isawa iwai
