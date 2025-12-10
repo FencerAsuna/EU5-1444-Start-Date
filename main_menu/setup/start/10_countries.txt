@@ -1194,8 +1194,6 @@ countries = {
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
-			ruler = bra_ludwig_v_wittelsbach
-			consort = bra_margrethe_estric
 
 			ruler_term = { character = bra_albrecht_i_askanier start_date = 1134.1.1 end_date = 1170.1.18 regnal_number = 1 }
 			ruler_term = { character = bra_otto_i_askanier start_date = 1170.1.18 end_date = 1184.7.8 regnal_number = 1 }
@@ -1310,7 +1308,7 @@ countries = {
 
 		country_rank = rank_county
 		capital = brandenburg
-		dynasty = wittelsbach_dynasty
+		dynasty = hohenzollern_dynasty
 	}
 
 	ALL = {	#Saxony-Allstedt
@@ -13339,10 +13337,10 @@ countries = {
 			#Banate of Croatia
 			bjelovar koprivnica kutina pakrac vaska virovitica
 			zagreb karlovac petrinja sisak kozara
-			gradiski_brod dubica
+			gradiski_brod dubica rijeka
 		}
 		our_cores_conquered_by_others = {
-			zadar split sibenik rijeka
+			zadar split sibenik
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
