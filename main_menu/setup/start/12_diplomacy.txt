@@ -845,5 +845,6 @@ diplomacy_manager = {
     dependency = { first = TIH second = TIF subject_type = appanage }
     dependency = { first = TIH second = TII subject_type = appanage }
     dependency = { first = TIH second = MIH subject_type = vassal }
+    dependency = { first = TIF second = HZP subject_type = vassal }
 
 }

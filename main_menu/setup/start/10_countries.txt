@@ -55668,9 +55668,6 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
-			ruler_term = { character = mih_qutb_al_din_muhammad start_date = 1330.12.1 }
-
 			ruler = mih_qutb_al_din_muhammad
 
 		}
@@ -55769,24 +55766,21 @@ countries = {
 
 	HZP = { #Hazaraspids (Great Lorestan)
 	#Ruler Title: Atabegate (Atabeg)
-		our_cores_conquered_by_others = {
+		own_control_core = {
 			izeh andika dehdez lordegan naghan
 			somaleh bagh_malek
 			dezful  andimeshk masjed_soleyman shush shushtar
 			behbahan  dehdasht dishmok dogonbadan hendijan suq
-			ramhormoz
-			fereydunshahr
-			golpayegan khwansar
+			ramhormoz yasuj samiram sisakht vanak borujen deh_kord
 		}
 
 		include = "expl_middle_east"
 		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		government = {
-			type = monarchy
+			type = tribe
 			heir_selection = cognatic_primogeniture
-			ruler = hzp_rukn_al_din_yusuf_shah
-			ruler_term = { character = hzp_rukn_al_din_yusuf_shah start_date = 1330.1.1 regnal_number = 2 }
+			ruler = random
 			regnal_numbers = {
 				name_joseph.name_shah = 2
 			}
@@ -60665,16 +60659,6 @@ countries = {
 			firuzabad dehram riz bandar_deyr khormoj kalameh
 			farashband sar_mashhad kazerun borazjan reyshahr
 			qala_safid nurabad bandar_rig jannaba bandar_deylam basht
-		}
-
-		 own_control_integrated = {
-			izeh andika dehdez lordegan naghan
-			somaleh bagh_malek
-			dezful  andimeshk masjed_soleyman shush shushtar
-			behbahan  dehdasht dishmok dogonbadan hendijan suq
-			ramhormoz
-			fereydunshahr
-			golpayegan khwansar
 		}
 		our_cores_conquered_by_others = {
 			kish
