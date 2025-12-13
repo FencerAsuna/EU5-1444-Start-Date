@@ -60656,9 +60656,30 @@ countries = {
 	
 	TIF = {
 		own_control_core = {
-			shiraz beyza istakhr
+			beyza istakhr aspas shahr_meyan qaryat_al_bidh saadatshahr
+			shiraz zarqan abadeh_tashk neyriz kherameh sarvestan 
+			kavar meymand jahrom fasa ij_iran juyom
+			darab jannat_shahr hajjiabad_zarrindasht rostaq tarom
+			fin ruydar dehtal lar darz bastak ahel siraf asir
+			bagh_iran kariyan alamarvdasht khunj jahreh karzin
+			firuzabad dehram riz bandar_deyr khormoj kalameh
+			farashband sar_mashhad kazerun borazjan reyshahr
+			qala_safid nurabad bandar_rig jannaba bandar_deylam basht
 		}
-    
+
+		 own_control_integrated = {
+			izeh andika dehdez lordegan naghan
+			somaleh bagh_malek
+			dezful  andimeshk masjed_soleyman shush shushtar
+			behbahan  dehdasht dishmok dogonbadan hendijan suq
+			ramhormoz
+			fereydunshahr
+			golpayegan khwansar
+		}
+		our_cores_conquered_by_others = {
+			kish
+		}
+
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
 		country_rank = rank_kingdom
     
