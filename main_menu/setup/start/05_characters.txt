@@ -99713,7 +99713,7 @@ adm = 31 dip = 34 mil = 24
     	birth_date = 1336.4.8
     	death_date = 1405.2.18
     	birth = kesh
-    	dynasty = "Timurid" 
+    	dynasty = timurid_dynasty
     	tag = TIH
     	ruler_trait = conqueror
     	ruler_trait = tactical_genius
@@ -99727,7 +99727,7 @@ adm = 31 dip = 34 mil = 24
 	    birth_date = 1350.1.1 
 	    death_date = 1400.1.1 
 	    birth = samarkand 
-	    dynasty = "Timurid" 
+	    dynasty = timurid_dynasty
 	    tag = TIH 
 	}
 
@@ -99740,7 +99740,7 @@ adm = 31 dip = 34 mil = 24
     	birth = samarkand 
     	father = tih_timur 
     	mother = tih_tuman_aqa 
-    	dynasty = "Timurid" 
+    	dynasty = timurid_dynasty
     	tag = TIH 
     	ruler_trait = righteous
     	ruler_trait = lawgiver
@@ -99761,7 +99761,7 @@ adm = 31 dip = 34 mil = 24
 	    birth_date = 1356.1.1
 	    death_date = 1376.1.1
 	    father = tih_timur
-	    dynasty = "Timurid" 
+	    dynasty = timurid_dynasty
 	    tag = TIH 
 	}
 
@@ -99772,7 +99772,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1399.1.1
 		death_date = 1433.1.1
 		father = tih_shahrukh_mirza
-		dynasty = "Timurid"
+		dynasty = timurid_dynasty
 		tag = TII
 	}
 
@@ -99783,7 +99783,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1394.1.1
 		death_date = 1435.1.1
 		father = tih_shahrukh_mirza
-		dynasty = "Timurid"
+		dynasty = timurid_dynasty
 		tag = TIF
 	}
 
@@ -99794,7 +99794,7 @@ adm = 31 dip = 34 mil = 24
 	    adm = 60 dip = 75 mil = 5 
 	    birth_date = 1379.1.1 
 	    birth = herat
-	    dynasty = "Timurid" 
+	    dynasty = timurid_dynasty
 	    tag = TIH 
 	    ruler_trait = lawgiver
 	    ruler_trait = righteous
@@ -99805,7 +99805,7 @@ adm = 31 dip = 34 mil = 24
 	    culture = khorezmian_culture
 	    religion = sunni
 	    birth_date = 1395.1.1 
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TIS
 	}
 
@@ -99818,7 +99818,7 @@ adm = 31 dip = 34 mil = 24
 	    birth = sultaniyya
 	    father = tih_shahrukh_mirza 
 	    mother = tih_gauhar_shad 
-	    dynasty = "Timurid" 
+	    dynasty = timurid_dynasty
 	    tag = TIS 
 	    ruler_trait = scholar
 	    ruler_trait = well_advised
@@ -99832,7 +99832,7 @@ adm = 31 dip = 34 mil = 24
 	    birth_date = 1418.1.1
 	    father = tih_baysonqor_father
 	    mother = tih_gauhar_shad
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TII
 	    ruler_trait = expansionist
 	    ruler_trait = charismatic_negotiator 
@@ -99846,7 +99846,7 @@ adm = 31 dip = 34 mil = 24
 	    birth_date = 1422.1.1
 	    father = tih_baysonqor_father
 	    mother = tih_gauhar_shad
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TIG
 	    ruler_trait = scholar
 	}
@@ -99858,7 +99858,7 @@ adm = 31 dip = 34 mil = 24
 	    adm = 40 dip = 30 mil = 30 
 	    birth_date = 1410.1.1
 	    father = tih_shahrukh_mirza
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TIK
 	    ruler_trait = bold_fighter
 }
@@ -99871,7 +99871,7 @@ adm = 31 dip = 34 mil = 24
 	    birth_date = 1433.1.1
 	    father = tif_ibrahim_father
 	    mother = tih_gauhar_shad
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TIF
 	}
 
@@ -99884,7 +99884,7 @@ adm = 31 dip = 34 mil = 24
 	    birth = samarkand
 	    father = tis_ulugh_beg
 	    mother = tis_ruqaiya_sultan 
-	    dynasty = "Timurid" 
+	    dynasty = timurid_dynasty
 	    tag = TTK 
 	    ruler_trait = expansionist
 	    ruler_trait = cruel
@@ -99899,7 +99899,7 @@ adm = 31 dip = 34 mil = 24
     	birth = herat 
     	father = tih_shahrukh_mirza 
     	mother = tih_gauhar_shad
-    	dynasty = "Timurid" 
+    	dynasty = timurid_dynasty
     	tag = TIH 
 	}
 
@@ -99911,7 +99911,7 @@ adm = 31 dip = 34 mil = 24
     	birth_date = 1423.1.1
     	birth = herat 
     	father = tih_baysunghur_mirza 
-    	dynasty = "Timurid" 
+    	dynasty = timurid_dynasty
     	tag = TIH 
 	}
 
@@ -99924,7 +99924,7 @@ adm = 31 dip = 34 mil = 24
     	birth = herat
     	father = tih_shahrukh_mirza 
     	mother = tih_gauhar_shad
-    	dynasty = "Timurid" 
+    	dynasty = timurid_dynasty
     	tag = TIH 
 	}
 	
@@ -99935,7 +99935,7 @@ adm = 31 dip = 34 mil = 24
     	adm = 35 dip = 40 mil = 30
    		birth_date = 1410.1.1
    		father = tis_ulugh_beg
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TTK
 	}
 
@@ -99946,7 +99946,7 @@ adm = 31 dip = 34 mil = 24
 	    adm = 60 dip = 55 mil = 70
 	    birth_date = 1424.1.1
 	    father = tii_sultan_muhammad
-	    dynasty = "Timurid"
+	    dynasty = timurid_dynasty
 	    tag = TII
 	    ruler_trait = tactical_genius
 	    ruler_trait = ambitious
