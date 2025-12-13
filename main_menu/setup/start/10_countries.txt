@@ -60725,12 +60725,12 @@ countries = {
 			khwar eyvanekey damavand rey varamin karaj rahimabad razeqan
 			lasjerd firuzkuh
 			natanz ardestan zavareh nain aqda anarak
-			tudeshk komsheceh murcheh_khvort dowlatabad dehagh
+			tudeshk komshecheh murcheh_khvort dowlatabad dehagh
 			yazdukhwast ramsheh qumisha yangabad sohrfiruzan karkevand fereydunshahr
 			nimvar khwansar golpayegan khomeyn mahallat delijan
 			sibak aligurdaz borborud gerit dorud borujerd
 			karaj_abi_dulaf saruk tafresh khondab qorveh_darjazin hamadan kurijan
-			malayer vahvand bisotun asadabad sonqor
+			malayer nahvand bisotun asadabad sonqor
 			ghorveh dehgolan bashqurtaran sohrevard yasukand bijar divandarreh
 			sagzabad savojbolagh avaj qazvin takestan abhar qeydar
 			shahrestan_sofla sirdan rudbar shamiram
