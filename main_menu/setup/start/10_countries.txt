@@ -55868,7 +55868,7 @@ countries = {
 	}
 
 	JSK = { #Jask https://en.wikipedia.org/wiki/Jask
-		our_cores_conquered_by_others = {
+		own_control_core = {
 			bandar_e_jask jagin_zir
 		}
 
@@ -56644,11 +56644,12 @@ countries = {
 	}
 
 	NGD = { #Neguderi
-		type = army
+		own_control_core = {
+			quetta gulistan shorabak
+		}
 		our_cores_conquered_by_others = {
 			ghazni gardez muqur nawah wazakhwa zarghun_shahr
 			kandahar arghestan chaman deychopan maruf qalat_ghilji
-			quetta gulistan shorabak
 		}
 
 		include = "expl_middle_east"
@@ -56656,7 +56657,7 @@ countries = {
 		include = "eurasian_horde_no_coast_no_pleading"
 		starting_technology_level = 3
 		government = {
-			type = steppe_horde
+			type = tribe
 			heir_selection = tribal_oldest_male
 			ruler = random
 

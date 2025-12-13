@@ -99860,7 +99860,7 @@ adm = 31 dip = 34 mil = 24
 	    father = tih_shahrukh_mirza
 	    dynasty = "Timurid"
 	    tag = TIK
-	    ruler_trait = bold_fighter # Military governor trait
+	    ruler_trait = bold_fighter
 }
 
 	tif_abdullah_mirza = {
@@ -99913,5 +99913,42 @@ adm = 31 dip = 34 mil = 24
     	father = tih_baysunghur_mirza 
     	dynasty = "Timurid" 
     	tag = TIH 
+	}
+
+	tih_ala_al_dawla = {
+    	first_name = { name = "Ala al-Dawla" }
+    	culture = khorezmian_culture
+    	religion = sunni
+    	adm = 45 dip = 50 mil = 40 
+    	birth_date = 1417.1.1
+    	birth = herat
+    	father = tih_shahrukh_mirza 
+    	mother = tih_gauhar_shad
+    	dynasty = "Timurid" 
+    	tag = TIH 
+	}
+	
+	ttk_abd_allah_mirza = {
+    	first_name = { name = "Abd Allah" }
+    	culture = khorezmian_culture
+    	religion = sunni
+    	adm = 35 dip = 40 mil = 30
+   		birth_date = 1410.1.1
+   		father = tis_ulugh_beg
+	    dynasty = "Timurid"
+	    tag = TTK
+	}
+
+	tii_abu_said_mirza = {
+	    first_name = { name = "Abu Sa'id" }
+	    culture = khorezmian_culture
+	    religion = sunni
+	    adm = 60 dip = 55 mil = 70
+	    birth_date = 1424.1.1
+	    father = tii_sultan_muhammad
+	    dynasty = "Timurid"
+	    tag = TII
+	    ruler_trait = tactical_genius
+	    ruler_trait = ambitious
 	}
 }
