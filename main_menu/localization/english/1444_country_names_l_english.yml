@@ -1,4 +1,9 @@
 ﻿l_english:
+ timurid_prince: "Timurid Prince"
+ rank_county_timurid_prince: "Timurid"
+ rank_duchy_timurid_prince: "Timurid Emirate"
+ rank_kingdom_timurid_prince: "Timurid Sultanate"
+ rank_empire_timurid_prince: "Timurid Empire"
  TIM: "Timurids"
  TIM_ADJ: "Timurids"
  TIS: "Samarkand"
@@ -15,5 +20,3 @@
  TII_ADJ: "Ajami"
  HZP: "Lorestan"
  HZP_ADJ: "Lorestani"
- timurid_prince: "Timurid Prince"
- rank_kingdom_timurid_prince: "Timurid $NAME$"
