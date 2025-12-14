@@ -60637,16 +60637,18 @@ countries = {
 			ruler = tim_shahrukh_mirza
 		}
 
-		government_reforms = {
+		reforms = {
     		timurid_prince
 		}
 
 		accepted_cultures = {
-			khorasani_culture
+			khorezmian_culture
 		}
 	
 		tolerated_cultures = {
 			afghan_culture
+			farsi_culture
+			tajik_culture
 		}
     
 		religious_school = maturidi_school 
@@ -60691,7 +60693,7 @@ countries = {
 
 		}
 
-		government_reforms = {
+		reforms = {
     		timurid_prince
 		}
 
@@ -60724,7 +60726,7 @@ countries = {
 			ruler = ttk_abd_al_latif
 		}
 		
-		government_reforms = {
+		reforms = {
     		timurid_prince
 		}
 
@@ -60760,7 +60762,7 @@ countries = {
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
 		include = "expl_mongols"
 		include = "eurasian_horde_no_muslim"
-		country_rank = rank_kingdom
+		country_rank = rank_duchy
     
 		government = {
 			type = monarchy
@@ -60768,7 +60770,7 @@ countries = {
 			ruler = tif_abdullah_mirza
 		}
 
-		government_reforms = {
+		reforms = {
     		timurid_prince
 		}
 
@@ -60805,8 +60807,8 @@ countries = {
 			ruler = tig_babur_mirza
 		}
 
-		government_reforms = {
-    		timurid_prince
+		reforms = {    		
+			timurid_prince
 		}
 	
 		accepted_cultures = {
@@ -60843,7 +60845,7 @@ countries = {
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		include = "expl_mongols"
 		include = "eurasian_horde_no_muslim"
-		country_rank = rank_duchy
+		country_rank = rank_kingdom
     
 		government = {
 			type = monarchy
@@ -60851,7 +60853,7 @@ countries = {
 			ruler = tii_sultan_muhammad
 		}
 
-		government_reforms = {
+		reforms = {
     		timurid_prince
 		}
 
@@ -60878,7 +60880,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = tik_sultan_masud
 		}
-		government_reforms = {
+		reforms = {
     		timurid_prince
 		}
 		accepted_cultures = {
