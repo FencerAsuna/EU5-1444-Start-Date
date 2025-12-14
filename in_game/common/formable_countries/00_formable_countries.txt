@@ -4122,6 +4122,7 @@ AFG_f = {
     allow = {
         owns = location:kabul
         owns = location:kandahar 
+		owns = location:balkh
     }
     
     name = AFG
@@ -4130,7 +4131,6 @@ AFG_f = {
     tag = AFG
     color = map_aztec
 
-    # Use provinces/regions corresponding to modern Afghanistan
     provinces = {
         kabul_province
         kandahar_province
