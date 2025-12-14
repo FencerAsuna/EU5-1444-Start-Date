@@ -735,6 +735,7 @@ diplomacy_manager = {
     dependency = { first = AVV second = BPR subject_type = vassal }
     dependency = { first = SUK second = PUA subject_type = vassal }
     dependency = { first = AYU second = SUK subject_type = vassal }
+    dependency = { first = AYU second = LIG subject_type = vassal }
     dependency = { first = HSE second = MGT subject_type = vassal }
     dependency = { first = LAV second = ADH subject_type = vassal }
 

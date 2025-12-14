@@ -30821,7 +30821,8 @@ countries = {
                 liaoyang dingliao dandong
                 gaizhou fuzhou_liaoyang jinzhou_dalian xiuyan zhuanghe
                 jinzhou_liaoyang dalinghe haizhou_liaoyang ningyuan_jinzhou
-                qiantun
+                qiantun shenyang fushun_liaoyang qinhe kuandian
+                guangning wangping kaicheng
 
                 ningpu lingfang xuanhua_nanning
             }
@@ -49687,7 +49688,7 @@ countries = {
             # Kharchin Mongols
             own_control_core = {
                 daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu xingzhong xiankang lizhou longshan chuanzhou shenshui quanning songzhou pingdisonglin enhua yingchang dalai_nur_lake dongliangting shangdu chagannur huanzhou baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying gaoyuan baochang fuzhou weining zhongdu
-                fuxin yizhou_jinzhou yizhou_jurchen guangning wangping kaicheng ningchang tongliao
+                fuxin yizhou_jinzhou yizhou_jurchen ningchang tongliao
             }
 
             our_cores_conquered_by_others = { }
@@ -50773,7 +50774,11 @@ countries = {
         DNG = {
             #Donggo
             own_control_core = {
-                donggo kuandian
+                donggo
+            }
+
+            our_cores_conquered_by_others = {
+                kuandian
             }
 
             include = "expl_manchurian_tribe"
@@ -50808,7 +50813,7 @@ countries = {
 
         HNE = {
             #Hunehe
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 shenyang
             }
 
@@ -50932,7 +50937,7 @@ countries = {
 
         SSH = {
             #Suksuhu
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 fushun_liaoyang qinhe
             }
 
@@ -51332,6 +51337,7 @@ countries = {
                 kaset_sombun chaiyaphum
                 # Hanthawaddy
                 ye kyainseikgyi haungtharaw
+                phanom_rung
             }
 
             include = "south_east_asia_monarchy"
@@ -51671,7 +51677,6 @@ countries = {
                 # Khmer
                 mahaxay nong_bok
                 savannakhet thuan_binh muang_phalan sepon muang_ta_oi muang_phin
-                phanom_rung
                 buriram suwannaphum prathai_saman muang_tam
                 rattanaburi sangkha khukhan prasat_thong_lang vat_phou
                 champasak muang_mang ban_phone tonle_kong idkabue samxay
