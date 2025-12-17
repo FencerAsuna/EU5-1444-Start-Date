@@ -34,8 +34,14 @@
  LBV: "Landshut"
  LBV_ADJ: "Landshuter"
 
- #Indian Subcontinent
+#Indian Subcontinent
  SMA: "Sindh"
  SMA_ADJ: "Sindhi"
  SIW: "Siwistan"
  SIW_ADJ: "Siwistani"
+ SEH: "Sehwan"
+ SEH_ADJ: "Sehwani"
+ SKU: "Sukkur"
+ SKU_ADJ: "Sukkuri"
+ MLA: "Multan"
+ MLA_ADJ: "Multani"

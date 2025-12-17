@@ -7052,9 +7052,8 @@ countries = {
         SWT = {
             #https://en.wikipedia.org/wiki/Sultanate_of_Swat
             own_control_core = {
-                baligram kalam_swat timergara bajaur
-                malakand agror behali
-                mardan lalpur
+                baligram
+                agror behali
 
                 #Indus Kohistan:
                 #Autonomous and perhaps better shown as independent, with one state per location/valley
@@ -7065,7 +7064,12 @@ countries = {
                 tangir sherwan udabhanda
             }
 
-            capital = bajaur
+            # our_cores_conquered_by_others = {
+                mardan lalpur
+                timergara bajaur kalam_swat malakand
+            }
+
+            capital = baligram
 
             include = "indian_muslim_monarchy_no_coast_no_censor"
             government = {
@@ -7090,7 +7094,7 @@ countries = {
         #CRL - Urtsun
         CRL = {
             own_control_core = {
-                urtsun dir
+                urtsun
             }
 
             capital = urtsun
@@ -50004,12 +50008,19 @@ countries = {
             capital = qom
         }
 
-        TIK = {
+			
+        TIK = { #kandahar
             own_control_core = {
                 kabul andarab kahmard bamyan charikar bagram istalif kohi_safi
                 gandamak jalalabad alishang panjshir asadabad_kunar parun hajiabad
                 gardez logar chak ghazni zarghun_shahr muqur nawah wazakhwa maruf yakawlang
                 chaman arghestan kandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
+            }
+            own_control_integrated = {
+                dir kalam_swat timergara malakand bajaur
+                lalpur mardan peshawar kohat
+                urgun wana zhob
+                hangu khost bannu tank akora thal_daman
             }
 
             starting_technology_level = 3
@@ -50032,7 +50043,7 @@ countries = {
             }
 
             religious_school = maturidi_school
-            capital = kabul
+            capital = kandahar
         }
 
         QCH = {
