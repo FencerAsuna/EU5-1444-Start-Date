@@ -6400,67 +6400,12 @@ countries = {
                 shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh
             }
 
-            own_control_integrated = {
-                jalna nander pathri kaulas
-                janjira chaul kalyan bombay bassein
-                savantvadi rajapur dabhol sangamesvara
-                ajara mudhol belgaum londa khanapur gokak badami raybag
-                sholhapur naldrug ausa parenda chambargonda
-                udgir bir dahrur qandhar ahmednagar daulatabad
-                pratapgarh satara karad kolhapur aundh jath miraj
-                sinnar nasik chandor
-                bidar yedagiri gulbarga kalyani sagar talikota bagalkot bijapur kembhavi sindagi basavana_bagewadi athani
-                singarh raigarh pune junnar chakan
-                daman surat rander broach baroda
-                khambat dholka ashaval
-                patan deodar radhanpur
-                ranthambore sheopur palanpur
-                phulia mandalgarh bhilwara
-                sabalgarh
-                kalam kelapur mahagaon panar amravati illichpur gawilgarh asirgarh
-                burhanpur pachora sindkedh mehkar akola
-                basim laling thalner sultanpur nandurbar dharangaon
-                khandwa handia hoshangabad bijagarh mandleshwar
-                maheshwar mandu dhar indore ujjain maksi
-                khategaon bhojpur sehore raisin bhopal
-                sarangpur agar sironj shahabad sipri chanderi
-                alirajpur ratlam mandsaur rampura bhanpura
-                gagraun aklera guna khaniadhana
-                bhind konch kalpi lalitpur deogarh bhilsa
-                damoh singorgarh ujargarh sugaur
-                chishtian #Cholistan
-                chichawatni dipalpur pakpattan
-                lahore sultanwind fatehabad batala kalanaur
-                chiniot kamalia talwandi jaranwala jhang
-                manikpur bhadohi mungra raebareli unnao
-                awadh akbarpur kishi sultanpur_uttar_pradesh
-                varanasi chunar ghazipur jaunpur mau_jaunpur kantit
-                shankargah
-                vijaygarh sidhi agori
-                budaun gunnaur sambhal
-                bareilly nahil pilibhit shahjahanpur
-                khairabad bhurwara biswan firuzabad_bahraich kherigarh
-                lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh
-                bahraich balrampur gonda shravasti tulsipur
-                gorakhpur bansi basti binayakpur kushinagar lumbini
-                azamgarh andar chillupar rudrapur sonepur_bihar thawe
-                bettiah makwanpur mehsi ramnagar_bihar sheohar simraungadh
-                bhagalpur gidhaur hajipur khagaria monghyr samastipur
-                patna bihar_sharif deo gaya narhat rajgir roh
-                hazaribagh chai gobindpur katrasgarh shergarh urda
-                dumka deoghar jangipur mandar_parvat rajmahal teliagarhi
-                manyakheta chitapur bhalki
-            }
-
             court_language = persian_language
 
             religious_school = chishti_school
             include = "indian_muslim_monarchy"
             country_rank = rank_kingdom
-            capital = sargadwari
-            #Originally Delhi but moved recently to Daulautabad in Deccan
-            #In 1335 the Sultan allowed people to go back to Delhi
-            #In 1337 the capital has been temporarily transferred to Sargadwari due to famine and disease in Delhi.
+            capital = delhi
             government = {
                 ruler_term = { character = dlh_ghiyasuddin_tughlaq start_date = 1320.9.8 end_date = 1325.1.2 regnal_number = 0 }
                 ruler_term = { character = dlh_muhammad_bin_tughluq start_date = 1325.1.2 regnal_number = 0 }
@@ -7316,7 +7261,7 @@ countries = {
         #JLW - Jhalawar / Limbdi
         JLW = {
             own_control_core = {
-                limbdi dhrangadhra
+                limbdi dhrangadhra morvi
             }
 
             include = "expl_india_hindu"
@@ -7358,7 +7303,7 @@ countries = {
         PLT = {
             #https://en.wikipedia.org/wiki/Palitana_State
             own_control_core = {
-                palitana lathi
+                palitana lathi sihor
             }
 
             include = "indian_hindu_monarchy_jain"
@@ -7449,7 +7394,12 @@ countries = {
             #https://en.wikipedia.org/wiki/Cutch_State
             own_control_core = {
                 kapilkot lakhiyarvira lakhpat kantha
-                nagnes morvi dwarka
+                nagnes dwarka
+                bhanvad gondal
+            }
+
+            our_cores_conquered_by_others = {
+                morvi
             }
 
             include = "expl_india_hindu"
@@ -7826,7 +7776,7 @@ countries = {
         IDR = {
             #https://en.wikipedia.org/wiki/Idar,_Gujarat
             own_control_core = {
-                idar modasa dungarpur
+                idar modasa
             }
 
             include = "expl_india_hindu"
@@ -7853,13 +7803,14 @@ countries = {
         DGR = {
             #https://www.indianrajputs.com/view/dungarpur
             own_control_core = {
-                banswara
+                banswara dungarpur
             }
 
             include = "expl_india_hindu"
             include = "indian_hindu_monarchy_jain_no_coast"
             capital = banswara
             government = {
+                type = tribe
                 ruler_term = { character = dgr_samantasimha_sisodia start_date = 1197.1.1 end_date = 1209.1.1 regnal_number = 1 }
                 ruler_term = { character = dgr_jayat_singh_sisodia start_date = 1209.1.1 end_date = 1218.1.1 regnal_number = 1 }
                 ruler_term = { character = dgr_sinhat_deo_sisodia start_date = 1218.1.1 end_date = 1248.1.1 regnal_number = 1 }
@@ -7888,6 +7839,7 @@ countries = {
             capital = champaner
             government = {
                 ruler = cmn_rao_palansang_chauhan
+                type = tribe
 
                 reforms = {
 
@@ -7955,6 +7907,7 @@ countries = {
                 jalor chandravati sirohi nadol
                 siwana
                 gudamalani
+                rampura mandalgarh bhilwara phulia bhilwara ranthambore sheopur sabalgarh
             }
 
             include = "expl_india_hindu"
@@ -7974,7 +7927,8 @@ countries = {
         #HAD - Hadoti / Bundi
         HAD = {
             own_control_core = {
-                bundi kota mangrol
+                bundi kota mangrol aklera guna
+                bhanpura gagraun agar 
             }
 
             include = "expl_india_hindu"
@@ -8052,6 +8006,7 @@ countries = {
             own_control_core = {
                 gwalior
                 narwar datia
+                sipri shahabad khaniadhana
             }
 
             include = "expl_india_hindu"
@@ -64009,9 +63964,118 @@ countries = {
             religious_school = hanafi_school
             capital = alwar
         }
+        
+        GJR = { #Gujarat
+            own_control_core = {
+                ashaval kambat dholka danduka limbdi ranpur
+                patan radhanpur palanpur deodar
+                baroda broach rander daman bassein bombay kalyan chaul
+            }
+
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+            country_rank = rank_kingdom
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = ashaval
+        }
+
+        DIU = { #DIU
+            own_control_core = {
+                diu
+            }
+
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = diu
+        }
+
+         SUA = { #Surat
+            own_control_core = {
+                surat
+            }
+
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+
+            government = {
+                type = republic
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = surat
+        }
+        
+        SMN = { #Somnath
+            own_control_core = {
+                somnath chhaya
+            }
+
+            starting_technology_level = 3
+            include = "expl_india_hindu"
+
+            government = {
+                type = theocracy
+                ruler = random
+                
+                reforms = {
+                }
+            }
+
+            capital = somnath
+        }
+   KHD = { #Kandesh
+            own_control_core = {
+                thalner
+            }
+
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+
+            government = {
+                type = monarchy
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = thalner
+        }
+   
+   
+   
     #BAH
     #MLW
-    #GJR
     #JNP
     }
 }

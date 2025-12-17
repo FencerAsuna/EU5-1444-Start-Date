@@ -15,12 +15,26 @@ SEH = { #Sindh puppet
     pattern = "pattern_diagonal_split.dds"
     color1 = "red"
     color2 = "white"
+    
+    colored_emblem = {
+        texture = "ce_bars_03.dds"
+        color1 = "black"
+        color2 = "white"  # explicitly set instead of referencing
+        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+    }
 }
 
 SKU = { #Sindh Puppet
     pattern = "pattern_horizontal_split.dds"
     color1 = "red"
     color2 = "white"
+    
+    colored_emblem = {
+        texture = "ce_bars_03.dds"
+        color1 = "red"  # explicitly set
+        color2 = "red"  # explicitly set
+        instance = { position = { 0.5 0.5 } scale = { 1.2 1.2 } }
+    }
 }
 
 MLA = { # Multan
@@ -71,5 +85,56 @@ MEA = { # Mewat
         color1 = color3
         color2 = color3
         instance = { position = { 0.65 0.5 } scale = { 0.35 0.35 } }
+    }
+}
+DIU = {
+    pattern = "pattern_horizontal_split.dds"
+    color1 = "turquoise"
+    color2 = "white"
+    
+    colored_emblem = {
+        texture = "ce_crescent.dds"
+        color1 = "white"
+        color2 = "turquoise"
+        instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }
+    }
+}
+
+SMN = { #Somnath
+    pattern = "pattern_solid.dds"
+    color1 = "orange"
+    color2 = "yellow"
+    
+    colored_emblem = {
+        texture = "ce_sun.dds"
+        color1 = "yellow"
+        color2 = "orange"
+        instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }
+    }
+}
+
+SUA = { #Surat
+    pattern = "pattern_diagonal_split.dds"
+    color1 = "blue"
+    color2 = "dark_blue"
+    
+    colored_emblem = {
+        texture = "ce_star.dds"
+        color1 = "white"
+        color2 = "white"
+        instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
+    }
+}
+
+KHD = { #Khandesh
+    pattern = "pattern_vertical_split.dds"
+    color1 = "brown"
+    color2 = "dark_red"
+    
+    colored_emblem = {
+        texture = "ce_triangle.dds"
+        color1 = "yellow"
+        color2 = "brown"
+        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
     }
 }

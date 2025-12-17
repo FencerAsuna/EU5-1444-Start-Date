@@ -34,3 +34,29 @@ MEA = { #Mewat
     culture_definition = mewati
     religion_definition = sunni
 }
+DIU = { #Diu
+    color = rgb { 64 224 208 }
+    color2 = rgb { 32 178 170 }
+    culture_definition = gujarati
+    religion_definition = sunni
+}
+
+SMN = { #Somnath
+    color = rgb { 255 165 0 }
+    color2 = rgb { 218 165 32 }
+    culture_definition = gujarati
+    religion_definition = hindu
+}
+
+SUA = { #Surat
+    color = rgb { 70 130 180 }
+    color2 = rgb { 25 25 112 }
+    culture_definition = gujarati
+    religion_definition = sunni
+}
+KHD = {
+    color = rgb { 196 115 85 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = marathi_culture
+    religion_definition = sunni
+}

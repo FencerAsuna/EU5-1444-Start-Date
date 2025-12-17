@@ -787,4 +787,19 @@ diplomacy_manager = {
     #------- Delhi -------------
     dependency = { first = DLH second = PNA subject_type = vassal }
     dependency = { first = DLH second = BHA subject_type = vassal }
+
+    #--------Gujarat----------------------
+    dependency = { first = GJR second = JWR subject_type = tributary }
+    dependency = { first = GJR second = DRP subject_type = tributary }
+    dependency = { first = GJR second = BGL subject_type = tributary }
+    dependency = { first = GJR second = RJI subject_type = tributary }
+    dependency = { first = GJR second = CMN subject_type = tributary }
+    dependency = { first = GJR second = DGR subject_type = tributary }
+    dependency = { first = GJR second = IDR subject_type = tributary }
+    dependency = { first = GJR second = JLW subject_type = tributary }
+    dependency = { first = GJR second = PLT subject_type = tributary }
+    dependency = { first = GJR second = SUA subject_type = vassal }
+    dependency = { first = GJR second = DIU subject_type = vassal }
+    dependency = { first = GJR second = SMN subject_type = vassal }
+
 }
