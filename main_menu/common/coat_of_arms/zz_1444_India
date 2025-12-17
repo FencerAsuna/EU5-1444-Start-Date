@@ -1,0 +1,13 @@
+SIW = { # Siwistan
+    pattern = "pattern_vertical_split_01.dds"
+    color1 = hsv360     {    210    15    25    }
+    color2 = hsv360     {    85     12    45    }
+    color3 = hsv360     {    40     10    85    }
+
+    colored_emblem = {
+        texture = "ce_roundel.dds"
+        color1 = color3
+        color2 = color3
+        instance = { position = { 0.5 0.5 } scale = { 0.4 0.4 } }
+    }
+}
