@@ -7550,7 +7550,7 @@ countries = {
 
         #MAU - Mau Ganj
         MAU = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 mauganj
             }
 
@@ -7915,6 +7915,8 @@ countries = {
             include = "expl_india_hindu"
             include = "indian_hindu_monarchy_jain_no_coast"
             capital = chittor #Or Nagahrada
+            country_rank = rank_kingdom
+
             government = {
                 ruler = mew_hammir_singh_sisodia
 
