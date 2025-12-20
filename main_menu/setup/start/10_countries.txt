@@ -2798,6 +2798,7 @@ countries = {
             capital = belgorod
             include = "expl_northern_europe"
             include = "russian_principality_no_coast"
+            religious_school = hanafi_school
         }
 
         #Principality of Novosil	(Новосильское княжество)
@@ -4334,7 +4335,7 @@ countries = {
                 bokey zhanybek kalmyk karatobe shyngyrlau aksay_pointic zhympity terekti oral ryn ushtagan sarayjuk kisikkamys kulagin saryadyn talowski piterka
                 taskala dergachi chertanla alexandrov_gay ozinki sakminskoye_vodokhranilishche yershov baytak ilek kargaly_aktobe kobda irek ushkan koskuduk
                 manysai shagan zhaksy_karasay tas_kichu kaynar shagiz tenteksor mavliberda kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
-                khurgancha pulzhai qonirat shimbay xojeli urgench vezir masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
+                masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
                 ketik_kala kabakty karatobe_mangyshlak kyzylkala beleuli kyushe sam shuruk sisem_ata uchkuduk
             }
 
@@ -7184,8 +7185,8 @@ countries = {
                 attock rawalpindi sangni pindi_gheb chakwal khewra dina
                 bhimber rajouri rasyal poonch
                 baligram
-                agror behali mardan lalpur
-                timergara bajaur kalam_swat malakand sherwan udabhanda
+                agror behali
+                kalam_swat sherwan udabhanda
             }
 
             capital = srinagar
@@ -7211,6 +7212,7 @@ countries = {
             }
 
             tolerated_cultures = { punjabi }
+            religious_school = hanafi_school
         }
 
         #BWL - Beniwal
@@ -7354,7 +7356,7 @@ countries = {
 
         #BHD - Bhanvad - Remnants of what was formerly Ghumli
         BHD = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 bhanvad
             }
             our_cores_conquered_by_others = {
@@ -7424,13 +7426,11 @@ countries = {
         #SMA - Samma
         SMA = {
             own_control_core = {
-                sehwan
-                kashmore shadodkot shikarpur jhatpat sukkur paat
-                rohri dubbi ghotki kot_lalu kandiaro islamgarh
-                rajabar moro_sindh mansura
+                islamgarh
+                mansura
 
                 thatta sonda manora muhammad_tur laribandar
-                ahmad_khan kotri naserpur hala ranikot
+                ahmad_khan kotri naserpur hala
                 vingur nagarparkar
                 chor umarkot wanga_bazar
                 agham_kot islamkot
@@ -7903,12 +7903,12 @@ countries = {
         MEW = {
             #https://en.wikipedia.org/wiki/Mewar
             own_control_core = {
-                nagahrada amet chittor chavand salumbar kanthal kiradu
+                nagahrada amet chittor chavand salumbar kanthal
                 khed pali
                 jalor chandravati sirohi nadol
                 siwana
                 gudamalani
-                rampura mandalgarh bhilwara phulia bhilwara ranthambore sheopur sabalgarh
+                rampura mandalgarh bhilwara phulia ranthambore sheopur sabalgarh
             }
 
             include = "expl_india_hindu"
@@ -8795,7 +8795,7 @@ countries = {
         #KTN - Kuttanad
         KTN = {
             #https://en.wikipedia.org/wiki/Ponnani
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 ponnani
             }
 
@@ -23892,7 +23892,7 @@ countries = {
                 deokju yeongwon gaeju sukju sunju
                 uiju sakju seonju gwiju jeongju_jeongju
                 ganggye huju chosan huicheon unju
-                myeongju uljin samcheok goseong tongcheon ingnyeong ulleungdo
+                myeongju uljin samcheok goseong tongcheon ingnyeong
                 dongju geumseong hoeyang ichon pyeonggang
                 chunju hongcheon inje nangcheon yanggu
                 wonju yeongwol pyeongchang jeongseon hoengcheon
@@ -23904,7 +23904,7 @@ countries = {
                 kaesong papyeong yangju pocheon gapyeong inju jipyeong
                 namgyeong gwangju suwon icheon
                 jeonju gimje jinan mupung
-                naju haenam jindo jangheung yeonggam muan hwasun hekusando yeonggwang
+                naju haenam jindo jangheung yeonggam muan hwasun yeonggwang
                 namwon imsil jeongeup musong
                 suncheon boseong heungyang gokseong
                 tamna seongwi
@@ -34471,8 +34471,6 @@ countries = {
                 urmia khameneh salmas
                 santeh takht_e_soleyman
                 miyaneh aghkand
-                zanjan mahneshan sarcham sojas
-                bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
                 goroz shusha
                 julfa nakhchivan
             }
@@ -34813,7 +34811,7 @@ countries = {
 
         #Kelali - KEL
         KEL = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 asadabad kamyaran malayer muchesh nahavand sonqor
             }
 
@@ -34895,7 +34893,7 @@ countries = {
 
         #Rankali - RKL
         RKL = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 bisotun holeylan kermanshah
             }
 
@@ -49361,7 +49359,7 @@ countries = {
             # Phagmodrupa
             own_control_core = {
                 gyamda buchu daklha_gampo zhokha
-                trigu chikchar gonpatsi lhodrak lho_taklung tragor zangchen lake_puma_yumco yamdrok_lake
+                trigu chikchar gonpatsi lhodrak lho_taklung tragor zangchen
                 lhasa damzhung drigung galo gyama taklung tsora tsurphu
                 nedong densatil gongkar nyemo rinpung_yarlung samye
                 dibang siang siyom subansiri
@@ -49617,9 +49615,8 @@ countries = {
                 altyntobe bogiston burchmullo
                 isbijab arsubaniket badam karabulak kazatlyk shymkent
                 koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
-                otrar artyk_ata kyr_uzkand mardankuyik sutkent zemukh zhaushikumtobe
+                otrar artyk_ata kyr_uzkand mardankuyik
                 turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
-                karakol
                 kurchum kandysu kokpekty shar zyryan
 
                 # Qocho
@@ -49722,6 +49719,7 @@ countries = {
             }
 
             capital = yarkand
+            religious_school = hanafi_school
         }
 
         MGE = {
@@ -49880,7 +49878,7 @@ countries = {
         KHA = {
             # Kharchin Mongols
             own_control_core = {
-                daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu xingzhong xiankang lizhou longshan chuanzhou shenshui quanning songzhou pingdisonglin enhua yingchang dalai_nur_lake dongliangting shangdu chagannur huanzhou baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying gaoyuan baochang fuzhou weining zhongdu
+                daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu xingzhong xiankang lizhou longshan chuanzhou shenshui quanning songzhou pingdisonglin enhua yingchang dongliangting shangdu chagannur huanzhou baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying gaoyuan baochang fuzhou weining zhongdu
                 fuxin yizhou_jinzhou yizhou_jurchen ningchang tongliao
             }
 
@@ -49955,7 +49953,7 @@ countries = {
                 sar_pol sangcharak chiras boyena_qara balkh aqca
                 khamyab kelif termez basand darzanji denov hissar shuman qubodijon
                 aiwanj arkhan taleqan kishim araska farkhor hulbuk vakhs wesgird munk kulob
-                khamyab zadian boyena_qara mazar_i_sharif khulm samangan kunduz baghlan
+                zadian mazar_i_sharif khulm samangan kunduz baghlan
                 ashkamesh
 
                 beyza istakhr aspas shahr_meyan qaryat_al_bidh saadatshahr
@@ -50064,10 +50062,6 @@ countries = {
                 }
             }
 
-            tolerated_cultures = {
-                turkmeni_culture
-            }
-
             religious_school = maturidi_school
             capital = samarkand
         }
@@ -50158,7 +50152,7 @@ countries = {
                 faraveh ganlygala jargalan
                 quchan khabushan shirvan_iran bojnord raz samalqan
                 meshkan_khorasan agh_qala azadvar bam_esfarayen bam_esfarayen shoqan jajarm
-                haresabad kharturan sabzevar farumad beyarjomand meyani
+                haresabad kharturan sabzevar farumad beyarjomand
                 bastam damghan qumis semnan
             }
 
@@ -50236,7 +50230,7 @@ countries = {
                 chaman arghestan kandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
             }
             own_control_integrated = {
-                dir kalam_swat timergara malakand bajaur
+                dir timergara malakand bajaur
                 lalpur mardan peshawar kohat
                 urgun wana zhob
                 hangu khost bannu tank akora thal_daman
@@ -50256,9 +50250,6 @@ countries = {
                 reforms = {
                     timurid_prince
                 }
-            }
-            accepted_cultures = {
-                afghan_culture
             }
 
             religious_school = maturidi_school
@@ -52114,6 +52105,7 @@ countries = {
             government = {
                 ruler = random
             }
+            religious_school = hanafi_school
         }
 
         SPN = {
@@ -53273,7 +53265,6 @@ countries = {
             own_control_core = {
                 charaideo charagua
                 konwargaon lakhimpur
-                itanagar nakshaparvat
                 morangi dergaon
                 tezpur bordowa rowta durjaya guwahati
                 lyngngam sohra nabagram
@@ -53524,7 +53515,7 @@ countries = {
             #Raksel
             own_control_core = {
                 palamau
-                ambikapur ramkola ramgiri garhwa sonhat janakpur
+                ambikapur ramkola ramgiri garhwa sonhat
             }
 
             include = "expl_india_hindu"
@@ -64300,7 +64291,7 @@ countries = {
         
         GJR = { #Gujarat
             own_control_core = {
-                ashaval kambat dholka danduka limbdi ranpur
+                ashaval dholka danduka limbdi ranpur
                 patan radhanpur palanpur deodar
                 baroda broach rander daman bassein bombay kalyan chaul
             }
@@ -64358,7 +64349,6 @@ countries = {
                 ruler = random
                 
                 reforms = {
-                    indian_sultanate_reform
                 }
             }
 
@@ -64455,10 +64445,10 @@ countries = {
             own_control_core = {
                 jaunpur hajipur samastipur monghyr gidhaur roh chai hazaribagh urda rohtas
                 chatra tarhasi untari narhat gaya deo patna rajgir bihar_sharif sonepur_bihar andar thawe kushinagar gorakhpur binayakpur rudrapur
-                buxar arrah ballia jaund sasaram chunar varanasi bhadohi mungra sultanpur_uttar_pradesh ghazipur mau_jaunpur azamgarh chillupar bansi basti
-                gonda balrampur tulsipur shravasti bahraich akbarpur awadh kishi raebareli mungra bhadohi prayag kara asni manikpur raebareli korra
-                makanpur etawah kanauj agra chandwar sargadwari jalesar_doab mathura kol unnao bilgram lucknow ibrahimabad biswan khairabad hardoi pali_uttar_pradesh
-                biswan khairabad firuzabad_bahraich bhurwara kherigarh nahil pilibhit shahjahanpur bareilly budaun gunnaur sambhal chandpur_uttar_pradesh
+                buxar arrah ballia jaund sasaram chunar varanasi bhadohi sultanpur_uttar_pradesh ghazipur mau_jaunpur azamgarh chillupar bansi basti
+                gonda balrampur tulsipur shravasti bahraich akbarpur awadh kishi raebareli mungra prayag kara asni manikpur raebareli korra
+                makanpur etawah kanauj agra chandwar sargadwari jalesar_doab mathura kol unnao bilgram lucknow ibrahimabad khairabad hardoi pali_uttar_pradesh
+                biswan firuzabad_bahraich bhurwara kherigarh nahil pilibhit shahjahanpur bareilly budaun gunnaur sambhal chandpur_uttar_pradesh
                 shahabad_uttar_pradesh seohara nagina shishgarh
             }
             
@@ -64484,7 +64474,7 @@ countries = {
             own_control_core = {
                 bidar bijapur mudgal raichur devadurga
                 khanapur belgaum gokak mudhol badami bagalkot basavana_bagewadi talikota sindagi kembhavi chitapur manyakheta gulbarga
-                bhalki kalyani sholhapur naldrug parenda ausa kaulas udgir dahrur qandhar nander mahagaon bir pathri jalna sindkedh
+                bhalki kalyani sholhapur naldrug parenda ausa kaulas udgir dahrur qandhar nander bir pathri jalna sindkedh
                 mehkar basim mahagaon kalam kelapur panar amravati akola illichpur gawilgarh katol bandhugara dongartal wairagarh
                 raybag ajara kolhapur athani jath miraj karad aundh satara pratapgarh singarh pune chambargonda chakan junnar ahmednagar
                 sinnar nasik daulatabad koilkonda tandur golconda kohir medak tupran bhongir warangal parkal mangapet molangur
@@ -64504,7 +64494,7 @@ countries = {
                     indian_sultanate_reform
                 }
             }
-
+            religious_school = hanafi_school
             capital = bijapur
             accepted_cultures = {
                 marathi_culture
@@ -64564,7 +64554,7 @@ countries = {
         SIR = {
             own_control_core = {
                 sirhind samana_india sunam bathinda raikot rahon bajwara jalandhar hajner faridkot
-                muktsar chishtian jalandhar milwat kapurthala firozpur pakpattan chichawatni dipalpur
+                muktsar chishtian milwat kapurthala firozpur pakpattan chichawatni dipalpur
                 gugera kasur lahore fatehabad batala sultanwind kalanaur pasrur sialkot eminabad virkgarh
                 pindi_bhattian talwandi jaranwala chiniot dijkot jhang kamalia shorkot sillanwali shahpur
                 lalian bhera busal gujrat
@@ -64774,6 +64764,7 @@ countries = {
             government = {
                 ruler = random
             }
+            religious_school = hanafi_school
         }
     }
 }

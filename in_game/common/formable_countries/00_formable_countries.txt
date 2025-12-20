@@ -2732,7 +2732,7 @@ TIM_f = {
 	adjective = TIM_ADJ
 	tag = TIM
 	color = map_TIM
-	region = {
+	regions = {
 		persia_region
 	}
 
