@@ -6629,7 +6629,6 @@ countries = {
             }
 
             tolerated_cultures = {
-                kangri
                 kashmiri_culture
             }
         }
@@ -7186,7 +7185,7 @@ countries = {
                 bhimber rajouri rasyal poonch
                 baligram
                 agror behali mardan lalpur
-                timergara bajaur kalam_swat malakand
+                timergara bajaur kalam_swat malakand sherwan udabhanda
             }
 
             capital = srinagar
@@ -49329,7 +49328,7 @@ countries = {
                 chitral mulkhow yarkhun mastuj urtsun
             }
             own_control_integrated = {
-                jijial kandia dasu tangir sherwan udabhanda
+                jijial kandia dasu tangir
             }
 
             include = "east_asia_monarchy_no_coast"
