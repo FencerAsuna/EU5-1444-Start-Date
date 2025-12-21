@@ -72,3 +72,52 @@ BGH = {
         }
     }
 }
+
+BIT = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 246 234 202 }
+    colored_emblem = {
+        texture = "ce_star_24.dds"
+        color1 = rgb { 245 187 11 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 0.850 0.850 }
+        }
+    }
+}
+
+KAR = {
+    pattern = "pattern_vertical_split_01.dds"
+    color1 = rgb { 0 0 83 }
+    color2 = rgb { 255 255 255 }
+    colored_emblem = {
+        texture = "ce_star_solomon_seal.dds"
+        color1 = rgb { 0 0 83 }
+        instance = {
+            position = { 0.750 0.500 }
+            scale = { 0.750 0.750 }
+        }
+    }
+}
+
+RAM = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 133 66 }
+    colored_emblem = {
+        texture = "ce_ramazanids.dds"
+        color1 = rgb { 255 255 255 }
+        color2 = rgb { 245 1 0 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 1.000 1.000 }
+        }
+    }
+    colored_emblem = {
+        texture = "ce_rassids.dds"
+        color1 = rgb { 212 170 0 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 0.500 0.500 }
+        }
+    }
+}
