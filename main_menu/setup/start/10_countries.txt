@@ -12271,7 +12271,7 @@ countries = {
         VEN = {
             own_control_core = {
                 chioggia venice mestre
-                pola rovinj pag zadar split brac slano sibenik
+                pola rovinj pag zadar split brac sibenik
                 este monselice padova
                 legnago peschiera verona
                 # own_control_integrated, but culture accepted
@@ -13413,10 +13413,13 @@ countries = {
 
         BOS = {
             own_control_core = {
-                glamoc
-                vrhbosna konjic srebrenica doboj soli
-                jajce livno zenica kljuc srebrenik
-                glaz teocak olovo borac ustikolina
+                vrhbosna srebrenica doboj soli
+                jajce zenica kljuc srebrenik
+                glaz teocak olovo borac 
+            }
+
+            our_cores_conquered_by_others = {
+                livno ustikolina konjic glamoc
             }
 
             starting_technology_level = 3
@@ -13451,7 +13454,7 @@ countries = {
 
         RAG = {
             own_control_core = {
-                dubrovnik
+                dubrovnik slano
             }
 
             starting_technology_level = 3
@@ -18734,6 +18737,7 @@ countries = {
             #Travunija
             own_control_core = {
                 trebinje gacko mostar nevesinje drijeva metkovic
+                livno ustikolina konjic glamoc
             }
             starting_technology_level = 3
             include = "expl_mediterranean"
@@ -33119,11 +33123,10 @@ countries = {
             own_control_core = {
                 bartin
                 kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
-                ulus yenicepazari gerze
+                ulus gerze
             }
 
             own_control_integrated = {
-                safranbolu
             }
 
             include = "expl_eastern_europe"
@@ -34518,6 +34521,7 @@ countries = {
                 hafik sarkisla zara sivas gemerek
                 yalvac
                 kirsehir
+                yenicepazari safranbolu
             }
 
             own_control_integrated = {
