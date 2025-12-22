@@ -14554,6 +14554,7 @@ countries = {
                 mantes
                 etampes monfort_lamaury dreux
                 roucy chateau_porcien
+                alluyes evreux senonches
             }
             own_control_integrated = {
                 #Appanages
@@ -14997,7 +14998,7 @@ countries = {
                 # own_control_integrated, but culture accepted
             }
             own_control_integrated = {
-                argentan beaumont_au_maine mortagne senonches
+                argentan beaumont_au_maine laigle domfront
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -16746,11 +16747,11 @@ countries = {
         #Perche (In PU with Alençon)
         PRC = {
             own_control_core = {
-                belleme alluyes
+                belleme mortagne
             }
 
             our_cores_conquered_by_others = {
-                mortagne senonches
+                alluyes senonches
             }
 
             starting_technology_level = 3
@@ -17318,12 +17319,12 @@ countries = {
         #Normandy
         NRM = {
             own_control_core = {
-                bernay laigle louviers pont_audemer
-                caen bayeux domfront falaise lisieux pont_douilly
+                bernay louviers pont_audemer
+                caen bayeux falaise lisieux pont_douilly
                 cherbourg coutances avranches st_sauveur vire
                 rouen arques fecamp gisors tancarville
                 longueville
-                evreux harcourt mortain
+                harcourt mortain
             }
 
             our_cores_conquered_by_others = {
@@ -17331,7 +17332,7 @@ countries = {
                 evreux harcourt mortain #Evreux
                 longueville #Longueville
                 alencon domfront argentan #Alencon
-                argentan
+                argentan laigle
             }
 
             starting_technology_level = 3
